@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03B6CBA3A81954B0E197BCA6 /* Pods_MorseCodeDecoder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A89BDCDF878BDC1F39EA76A0 /* Pods_MorseCodeDecoder.framework */; };
+		472A247029A10A38000B5E97 /* MorseCodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472A246D29A10A38000B5E97 /* MorseCodeModel.swift */; };
+		472A247129A10A38000B5E97 /* MorseCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472A246E29A10A38000B5E97 /* MorseCodeView.swift */; };
+		472A247229A10A38000B5E97 /* MorseCodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472A246F29A10A38000B5E97 /* MorseCodeViewModel.swift */; };
+		472A247529A2518F000B5E97 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472A247429A2518F000B5E97 /* UIButton.swift */; };
+		472A247729A25431000B5E97 /* MorseCodeAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472A247629A25431000B5E97 /* MorseCodeAssembler.swift */; };
 		47E06BC729A1098700598E72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E06BC629A1098700598E72 /* AppDelegate.swift */; };
 		47E06BC929A1098700598E72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E06BC829A1098700598E72 /* SceneDelegate.swift */; };
 		47E06BCB29A1098700598E72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E06BCA29A1098700598E72 /* ViewController.swift */; };
@@ -16,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		472A246D29A10A38000B5E97 /* MorseCodeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorseCodeModel.swift; sourceTree = "<group>"; };
+		472A246E29A10A38000B5E97 /* MorseCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorseCodeView.swift; sourceTree = "<group>"; };
+		472A246F29A10A38000B5E97 /* MorseCodeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorseCodeViewModel.swift; sourceTree = "<group>"; };
+		472A247429A2518F000B5E97 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		472A247629A25431000B5E97 /* MorseCodeAssembler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseCodeAssembler.swift; sourceTree = "<group>"; };
 		47E06BC329A1098700598E72 /* MorseCodeDecoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorseCodeDecoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47E06BC629A1098700598E72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47E06BC829A1098700598E72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,9 @@
 		47E06BCF29A1098800598E72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47E06BD229A1098800598E72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47E06BD429A1098800598E72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F85AC2937779BD059AC51D2 /* Pods-MorseCodeDecoder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorseCodeDecoder.release.xcconfig"; path = "Target Support Files/Pods-MorseCodeDecoder/Pods-MorseCodeDecoder.release.xcconfig"; sourceTree = "<group>"; };
+		A89BDCDF878BDC1F39EA76A0 /* Pods_MorseCodeDecoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MorseCodeDecoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95B1F3E24C1D18AD80ADB1E /* Pods-MorseCodeDecoder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MorseCodeDecoder.debug.xcconfig"; path = "Target Support Files/Pods-MorseCodeDecoder/Pods-MorseCodeDecoder.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03B6CBA3A81954B0E197BCA6 /* Pods_MorseCodeDecoder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		472A247329A2517B000B5E97 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				472A247429A2518F000B5E97 /* UIButton.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		47E06BBA29A1098700598E72 = {
 			isa = PBXGroup;
 			children = (
 				47E06BC529A1098700598E72 /* MorseCodeDecoder */,
 				47E06BC429A1098700598E72 /* Products */,
+				4974D523CEE00F7C8C0A827B /* Pods */,
+				56246F4B0FC63963E1549C1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +81,10 @@
 		47E06BC529A1098700598E72 /* MorseCodeDecoder */ = {
 			isa = PBXGroup;
 			children = (
-				47E06BC629A1098700598E72 /* AppDelegate.swift */,
+				472A247329A2517B000B5E97 /* Extensions */,
+				47E06BDC29A109B800598E72 /* MorseCode */,
 				47E06BC829A1098700598E72 /* SceneDelegate.swift */,
+				47E06BC629A1098700598E72 /* AppDelegate.swift */,
 				47E06BCA29A1098700598E72 /* ViewController.swift */,
 				47E06BCC29A1098700598E72 /* Main.storyboard */,
 				47E06BCF29A1098800598E72 /* Assets.xcassets */,
@@ -67,6 +94,34 @@
 			path = MorseCodeDecoder;
 			sourceTree = "<group>";
 		};
+		47E06BDC29A109B800598E72 /* MorseCode */ = {
+			isa = PBXGroup;
+			children = (
+				472A247629A25431000B5E97 /* MorseCodeAssembler.swift */,
+				472A246E29A10A38000B5E97 /* MorseCodeView.swift */,
+				472A246D29A10A38000B5E97 /* MorseCodeModel.swift */,
+				472A246F29A10A38000B5E97 /* MorseCodeViewModel.swift */,
+			);
+			path = MorseCode;
+			sourceTree = "<group>";
+		};
+		4974D523CEE00F7C8C0A827B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A95B1F3E24C1D18AD80ADB1E /* Pods-MorseCodeDecoder.debug.xcconfig */,
+				6F85AC2937779BD059AC51D2 /* Pods-MorseCodeDecoder.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		56246F4B0FC63963E1549C1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A89BDCDF878BDC1F39EA76A0 /* Pods_MorseCodeDecoder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 47E06BD729A1098800598E72 /* Build configuration list for PBXNativeTarget "MorseCodeDecoder" */;
 			buildPhases = (
+				62A02B181E79E4CA88D61C38 /* [CP] Check Pods Manifest.lock */,
 				47E06BBF29A1098700598E72 /* Sources */,
 				47E06BC029A1098700598E72 /* Frameworks */,
 				47E06BC129A1098700598E72 /* Resources */,
+				626B5DD422CB3933301FCAF2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +190,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		626B5DD422CB3933301FCAF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MorseCodeDecoder/Pods-MorseCodeDecoder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MorseCodeDecoder/Pods-MorseCodeDecoder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MorseCodeDecoder/Pods-MorseCodeDecoder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62A02B181E79E4CA88D61C38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MorseCodeDecoder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		47E06BBF29A1098700598E72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				47E06BCB29A1098700598E72 /* ViewController.swift in Sources */,
+				472A247229A10A38000B5E97 /* MorseCodeViewModel.swift in Sources */,
+				472A247729A25431000B5E97 /* MorseCodeAssembler.swift in Sources */,
+				472A247129A10A38000B5E97 /* MorseCodeView.swift in Sources */,
 				47E06BC729A1098700598E72 /* AppDelegate.swift in Sources */,
+				472A247529A2518F000B5E97 /* UIButton.swift in Sources */,
 				47E06BC929A1098700598E72 /* SceneDelegate.swift in Sources */,
+				472A247029A10A38000B5E97 /* MorseCodeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +386,7 @@
 		};
 		47E06BD829A1098800598E72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A95B1F3E24C1D18AD80ADB1E /* Pods-MorseCodeDecoder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +415,7 @@
 		};
 		47E06BD929A1098800598E72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F85AC2937779BD059AC51D2 /* Pods-MorseCodeDecoder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
